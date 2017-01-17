@@ -1,0 +1,126 @@
+/*
+Theme Name: Just Simple
+Theme URI: http://rplance.com/themes/justsimple
+Author: cannelflow
+Author URI: http://rplance.com/
+Description: The 2017 theme for WordPress which can act as a starter theme for your project, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: justsimple
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*
+ * Globals
+ */
+ 
+body {
+  font-family: 'Indie Flower', cursive;    
+  font-size:16px;
+  color:#333;
+  background-color: #f4f4f4;
+  letter-spacing:1px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:visited {
+    color: #23527c;
+}
+
+a:focus, 
+a:hover {
+    color: #006064;
+    text-decoration: none;
+}
+
+header,
+footer {
+    background-color: #006064;
+    color: #fff;
+}
+
+/* header */
+
+header .blog-header {
+    margin-bottom:20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.blog-header h1 {
+    font-size: 45px;
+}
+
+/* navbar */
+
+.navbar-custome {
+    border-radius: 0;
+}
+
+/* article */
+
+article.blog {
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+article .blog-more {
+    margin-bottom: 10px;
+}
+
+.blog .blog-content {
+    text-align:justify;
+}
+
+.blog-img img {
+    width:100%;
+    height:auto;
+    margin-bottom: 5px;
+}
+
+/* footer */
+
+footer p {
+    margin:20px;
+}
+
+/* sidebar */
+
+.sidebar-module {
+    position: relative;
+    background-color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.07), 1px 2px 5px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.07), 1px 2px 5px 0 rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+}
+
+.sidebar-module .card-header .bg-primary {
+    background: #4285f4;
+}
+
+.sidebar-module .sidebar-header {
+    padding: 16px;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+}
+
+.sidebar-module .sidebar-content {
+    padding: 16px;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+    box-sizing: border-box;
+}
+
+
+
