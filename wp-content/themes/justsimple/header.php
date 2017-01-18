@@ -14,6 +14,7 @@
     </title>
     <?php wp_head() ; ?>
 </head>
+<body class="<?php body_class() ; ?>">
 <header class="container-fluid">
     <div class="container">
       <div class="row">
