@@ -70,7 +70,7 @@ function justsimple_sidebar($id){
         'description' => __( 'Sidebar for the theme justsimple', 'justsimple' ),
         'class'       => '',
         'before_widget' => '<div id="%1$s" class="sidebar-module %2$s">',
-        'after_widget'  => '</div></div></div>',
+        'after_widget'  => '</div>',
         'before_title'  => '<div class="sidebar-header bg-primary"><span class="sidebar-title">',
         'after_title'   => '</span></div><div class="sidebar-content"><div class="widget">'
   ));
